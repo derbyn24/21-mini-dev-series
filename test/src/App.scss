@@ -1,0 +1,26 @@
+* {
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.App {
+    background-color: lightblue;
+    padding: 30px 50px;
+
+    header {
+        padding: 1em 1em 1em 1em;
+        color: white;
+        background-color: darkblue;
+        
+    }
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.box {
+    margin: 1em 0em 1em 0em;
+    padding: 1em 1em 1em 1em;
+    border: 5px solid darkblue;
+}
