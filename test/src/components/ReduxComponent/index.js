@@ -30,7 +30,7 @@ const ReduxComponent = () => {
 
     return (
 
-        <div>
+        <div className="box">
             <h2>{demoJson?.title}</h2>
             <p>{demoJson?.body}</p> 
             <button type="button" onClick={handleButtonClick}>
