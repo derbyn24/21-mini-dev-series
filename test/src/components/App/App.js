@@ -21,6 +21,10 @@ function App() {
         </header>
 
         <Switch>
+          <Route path="/reduxdemo">
+            <ReduxComponent />
+          </Route>
+
           <Route path="/">
             <div className="home">
               <div className="box">
@@ -44,10 +48,6 @@ function App() {
                 <p>This is a recording of me performing Chopin's Fantaisie Impromptu in 2019. You can listen to more of my piano recordings on my <a href="https://www.youtube.com/channel/UCkZDoY8U5ybgOl9W1keso5A">YouTube channel</a>.</p>
               </div>
             </div>
-          </Route>
-
-          <Route path="/reduxdemo">
-            <ReduxComponent />
           </Route>
         </Switch>
       </Router>
