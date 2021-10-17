@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import './App.scss';
+import ReduxComponent from '../ReduxComponent';
 
 function App() {
   return (
@@ -27,6 +28,10 @@ function App() {
         </ul>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/xjsM1gTx1fc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p>This is a recording of me performing Chopin's Fantaisie Impromptu in 2019. You can listen to more of my piano recordings on my <a href="https://www.youtube.com/channel/UCkZDoY8U5ybgOl9W1keso5A">YouTube channel</a>.</p>
+      </div>
+
+      <div className="box">
+        <ReduxComponent />
       </div>
     </div>
   );
